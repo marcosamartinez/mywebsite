@@ -1,0 +1,19 @@
+div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+div h2 p {
+  width: 50%;
+}
+
+div h2 {
+  text-align: center;
+}
+
+.aboutme {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

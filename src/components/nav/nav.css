@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 2em;
+}
+
+/* a :hover {
+    background
+
+} */

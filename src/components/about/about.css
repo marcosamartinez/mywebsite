@@ -1,6 +1,18 @@
-div img {
-  width: 100%;
+.marcos-picture {
+  width: 50%;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+.new-york {
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
 }
 
 div h2 p {
@@ -11,9 +23,19 @@ div h2 {
   text-align: center;
 }
 
-.aboutme {
-  padding: 2em;
+.about-page {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+p {
+  color: yellow;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+  padding-top: 2em;
 }

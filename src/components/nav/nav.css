@@ -5,7 +5,6 @@ nav {
   font-size: 2em;
 }
 
-/* a :hover {
-    background
-
-} */
+nav :hover {
+  color: yellow;
+}

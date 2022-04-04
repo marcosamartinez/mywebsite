@@ -1,15 +1,16 @@
 import React from "react";
 import "./about.css";
 import me from "./../../assets/me.jpeg";
+import skyline5 from "./../../assets/skyline5.jpeg";
 
 const About = () => {
+  // Styled Componentes
+
   return (
-    <div className="aboutme">
-      <div>
-        <img src={me} alt="marcos martinez" />
-      </div>
-      <div>
+    <div class="about-page">
+      <div class="about-me">
         <h2>About Me</h2>
+        <img class="marcos-picture" src={me} alt="marcos martinez" />
         <p>
           My name is Marcos Martinez. I'm a young Developer just getting started
           on my journey. As a kid growing up you see a lot of things. For me
@@ -24,9 +25,17 @@ const About = () => {
           for them both, they are the ones im going on this journey for.
         </p>
       </div>
-      <div>
-        <h2>Where Im from</h2>
-        <p></p>
+      <div class="where-im-from">
+        <h2>Concreate Jungle</h2>
+        <img class="new-york" src={skyline5} alt="new york" />
+        <p>
+          {" "}
+          Im from New York City. Washington Heights exactly where you see a lot
+          of dreams float in the air. Music, Food, Family, Culture is what
+          describes this place, just flowing with colors everywhere. Even though
+          New York is big, this is a hot spot for hispanics from the Dominican
+          Republic to come.
+        </p>
       </div>
     </div>
   );

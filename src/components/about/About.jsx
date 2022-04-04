@@ -7,10 +7,10 @@ const About = () => {
   // Styled Componentes
 
   return (
-    <div class="about-page">
-      <div class="about-me">
+    <div className="about-page">
+      <div className="about-me">
         <h2>About Me</h2>
-        <img class="marcos-picture" src={me} alt="marcos martinez" />
+        <img className="marcos-picture" src={me} alt="marcos martinez" />
         <p>
           My name is Marcos Martinez. I'm a young Developer just getting started
           on my journey. As a kid growing up you see a lot of things. For me
@@ -25,9 +25,9 @@ const About = () => {
           for them both, they are the ones im going on this journey for.
         </p>
       </div>
-      <div class="where-im-from">
+      <div className="where-im-from">
         <h2>Concreate Jungle</h2>
-        <img class="new-york" src={skyline5} alt="new york" />
+        <img className="new-york" src={skyline5} alt="new york" />
         <p>
           {" "}
           Im from New York City. Washington Heights exactly where you see a lot

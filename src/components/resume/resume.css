@@ -1,0 +1,75 @@
+.resume-page {
+  padding: 4rem 50px;
+  min-height: 60vh;
+  background-color: #f3f3f3;
+  color: #252525;
+}
+
+.resume-page h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-actions {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 0 16px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid #252525;
+  color: #252525;
+  background-color: #f3f3f3;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.resume-btn:hover {
+  box-shadow: 4px 4px #252525;
+}
+
+.resume-preview-box {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 900px;
+  border: 2px solid #252525;
+  box-shadow: 4px 4px #252525;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.resume-preview-iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+}
+
+.resume-placeholder {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume-placeholder p {
+  margin-bottom: 1rem;
+  color: #252525;
+}
+
+.resume-instructions {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.resume-instructions code {
+  background: #e0e0e0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+}

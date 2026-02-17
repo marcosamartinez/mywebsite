@@ -1,10 +1,81 @@
-nav {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  font-size: 2em;
+/*========= NAVIGATION HEADER ==========*/
+.header_navbar {
+  width: 100%;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-nav :hover {
-  color: yellow;
+.hn_wrap {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transition: 0.3s ease-in-out;
+}
+
+.hn_wrap.navbarActive {
+  top: 10px;
+  border: 2px solid #252525;
+  box-shadow: 4px 4px #252525;
+  padding: 0 15px;
+  background-color: #f3f3f3;
+}
+
+.hn_Logo {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #252525;
+}
+
+.hn_Logo > h1 {
+  font-weight: 700;
+}
+
+.hn_Logo > img {
+  width: 40px;
+}
+
+.nav_menu {
+  grid-column: 2/4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.nav_menu > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav_menu > ul > li {
+  list-style: none;
+  border-left: 1px solid #7f8084;
+  border-right: 1px solid #7f8084;
+  padding: 0 8px;
+}
+
+.nav_menu > ul > li > a {
+  font-size: 14px;
+  color: #252525;
+  transition: 0.3s linear;
+  position: relative;
+}
+
+.nav_menu > ul > li > a.activeNH {
+  background-color: #252525;
+  color: #f3f3f3;
+  padding: 3px 10px;
+  font-weight: 600;
+}
+
+.nav_menu > ul > li > a:hover {
+  border-bottom: 1px solid #7f8084;
+  padding: 3px 10px;
 }

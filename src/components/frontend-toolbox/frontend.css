@@ -1,0 +1,39 @@
+.frontend h5 {
+  display: flex;
+  flex: wrap;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: "Asap", sans-serif;
+}
+
+.frontend h5:hover {
+  color: yellow;
+}
+
+h5 {
+  font-family: "Asap", sans-serif;
+  margin: 1em;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+
+  background-image: none;
+
+  font-size: 40px;
+}
+
+@keyframes animation {
+  0% {
+    right: 100px;
+    color: white;
+  }
+  100% {
+    left: 100px;
+    color: yellow;
+  }
+}
